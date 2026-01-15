@@ -11,6 +11,7 @@ A robust REST API built with Django Rest Framework for managing employee records
 - **CRUD Operations**: Full Create, Read, Update, Delete support for Employee records.
 - **Filtering & Pagination**: Built-in support for filtering by department/role and pagination.
 - **Production Ready**: Configured for Render deployment with `Whitenoise` and `PostgreSQL` support.
+- **Comprehensive Testing**: Automated test suite for all API endpoints using `pytest`.
 
 ## Quick Start
 
@@ -38,6 +39,13 @@ python src/manage.py createsuperuser
 ### 4. Run Server
 ```bash
 python src/manage.py runserver
+```
+
+## Running Tests
+This project includes comprehensive automated tests for all API endpoints using `pytest`.
+
+```bash
+uv run pytest
 ```
 
 ## API Documentation (Swagger UI)

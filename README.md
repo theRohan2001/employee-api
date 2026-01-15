@@ -54,10 +54,13 @@ Navigate to the **Base URL** (e.g., `http://127.0.0.1:8000/`) to see the interac
 
 To test the API quickly, you can use the built-in login view or generating a token.
 
-**Demo Credentials:**
+**Demo Credentials (Live & Local):**
+Use these credentials to log in to the **Live Demo** or your local instance (if created):
+
 *   **Username**: `admin`
 *   **Password**: `admin123`
-*(Note: You must create this user first using `createsuperuser` if it doesn't exist)*
+
+*(Note: On the live demo, this user is automatically created on deployment. Locally, run `createsuperuser`)*
 
 ## API Routes
 

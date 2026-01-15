@@ -10,3 +10,6 @@ python src/manage.py collectstatic --no-input
 
 # Run migrations
 python src/manage.py migrate
+
+# Create superuser (if configured)
+python src/create_superuser.py

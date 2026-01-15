@@ -14,5 +14,7 @@ dependencies = [
     "gunicorn>=23.0.0",
     "markdown>=3.10",
     "psycopg2-binary>=2.9.11",
+    "pytest>=9.0.2",
+    "pytest-django>=4.11.1",
     "whitenoise>=6.11.0",
 ]

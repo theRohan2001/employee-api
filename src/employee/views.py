@@ -26,6 +26,7 @@ class EmployeeViewSet(viewsets.ModelViewSet):
     serializer_class = EmployeeSerializer
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['department', 'role']
+    ordering = ['id']
     permission_classes = [permissions.IsAuthenticated]
 
     def create(self, request, *args, **kwargs):
